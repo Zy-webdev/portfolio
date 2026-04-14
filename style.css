@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 45px;
+}
+
+.hero p {
+  margin: 10px 0;
+  opacity: 0.8;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* ABOUT */
+.about {
+  padding: 60px;
+  text-align: center;
+}
+
+/* SKILLS */
+.skills {
+  padding: 60px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 25px;
+  background: white;
+  border-radius: 8px;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 60px;
+  text-align: center;
+}
+
+.project-card {
+  background: #f9f9f9;
+  margin: 15px auto;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 60px;
+  background: #111;
+  color: white;
+  text-align: center;
+}
